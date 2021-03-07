@@ -1,0 +1,93 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+.head-logo-image
+{
+    width: 150px;
+}
+.Question-head h2 {
+    line-height: 20px;
+    padding: 7px 0;
+    font-size: 16px;
+    color: #5480bc;
+    margin: 0;
+}
+.TitleBlock
+{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #00539b;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.radio-item.text {
+    color: #707070;
+}
+.btn-block {
+    display: block;
+    width: 300px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5480bc;
+    border-color: #5480bc;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background .3s ease-in-out;
+}
